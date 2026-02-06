@@ -2,8 +2,8 @@ name: GLaDOS Auto Checkin
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # 每天UTC时间02:00 (北京时间10:00)
-    - cron: '0 14 * * *'  # 每天UTC时间14:00 (北京时间22:00)
+    - cron: '16 2 * * *'  # 每天UTC时间02:00 (北京时间10:00)
+    - cron: '4 14 * * *'  # 每天UTC时间14:00 (北京时间22:00)
   workflow_dispatch:  # 允许手动触发
 
 jobs:
